@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+	<head>
+		<style type="text/css">
+		[title=preWrap]{
+			white-space:pre-wrap;
+		}
+		[title=preLine]{
+			white-space:pre-line;
+		}
+		</style>
+	</head>
+	<body>
+		<p title="preWrap">This       paragraph h   as     many white-space   
+		also with many line breaking,          but the preWrap         m    o    d   e can keep the lineBreak
+		but ignore the white-space.    
+		so the preWrap's pre is       not the pre!</p>
+		<p>ok, the white-space will stay, so it is a real pre!</p>
+		<p title="preLine">This       paragraph h   as     many white-space   
+		also with many line breaking,          but the preline         m    o    d   e can keep the whitespace
+		but ignore the line breaking.</p>
+		<p>... ok, I was wrong again. The pre-line mode will keep the line-break but ignore the white space.
+		so the pre is not the pre...</p>
+	</body>
+</html>
